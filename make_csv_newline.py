@@ -103,8 +103,6 @@ if __name__ == "__main__":
         sys.exit()
 
     # csv 파일의 텍스트값 불러오기 (string → list)
-    #UTF8_String = FileReadToString(sys.argv[1])
-    #Before_CSV_List = Read_CSV_file_to_list(UTF8_String)
     Before_CSV_List = Read_CSV_file_to_list(sys.argv[1])
 
     if Check_each_column_count(Before_CSV_List) == True:
